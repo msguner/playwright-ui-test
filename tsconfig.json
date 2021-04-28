@@ -1,22 +1,18 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",
+//    "types": [
+//      "jest-playwright-preset",
+//      "expect-playwright"
+//    ],
     "strict": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "types": [
-      "@types/jest",
-      "jest-playwright-preset",
-      "expect-playwright"
-    ]
+    "module": "commonjs",
+    "noEmit": true
   },
   "include": [
     "src"
-  ]
+  ],
+  "rootDirs": [
+    "./src"
+  ],
 }
