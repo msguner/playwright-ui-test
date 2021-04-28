@@ -1,0 +1,28 @@
+{
+  "name": "playwright-ui-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test.watch": "jest --watchAll",
+    "hb": "jest --findRelatedTests __tests__/hb.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^26.0.23",
+    "jest-playwright-preset": "^1.5.2",
+    "playwright": "^1.10.0",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "eslint-plugin-jest-playwright": "^0.2.1",
+    "jest": "^26.6.3"
+  },
+  "extends": [
+    "plugin:jest-playwright/recommended"
+  ]
+}
